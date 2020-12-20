@@ -53,3 +53,4 @@ We also need to specify exchange rates:
 - ~~Common equals~~
 - Common times
 - ~~Compare Francs with Dollars~~
+- Currency?
