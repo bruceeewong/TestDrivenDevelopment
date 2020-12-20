@@ -39,6 +39,8 @@ We also need to specify exchange rates:
 
 ## Tasking
 
+### list 1
+
 - $5 + 10 CHF = $10 if rate is 2:1
 - ~~$5 × 2 = $10~~
 - ~~Make "amount" private~~
@@ -55,3 +57,9 @@ We also need to specify exchange rates:
 - ~~Compare Francs with Dollars~~
 - ~~Currency?~~
 - ~~Delete testFrancMultiplication?~~
+
+### list 2
+- $5 + 10 CHF = $10 if rate is 2:1
+- $5 + $5 = $10
+- Return Money from $5+$5
+- ~~Bank.reduce(Money)~~
