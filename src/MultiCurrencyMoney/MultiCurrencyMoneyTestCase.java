@@ -4,11 +4,6 @@ package MultiCurrencyMoney;
 // $5 + 10 CHF = $10 if rate is 2:1
 // $5 × 2 = $10
 
-// Steps:
-// Make "amount" prove
-
-
-import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
