@@ -6,7 +6,7 @@ package MultiCurrencyMoney;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MultiCurrencyMoneyTestCase {
     @Test
@@ -16,5 +16,11 @@ public class MultiCurrencyMoneyTestCase {
         assertEquals(10, product.amount);
         product = five.times(3);
         assertEquals(15, product.amount);
+    }
+
+    @Test
+    public void testEquality() {
+        assertTrue(new Dollar(5).equals(new Dollar(5)));
+        assertFalse(new Dollar(6).equals(new Dollar(5)));
     }
 }

@@ -44,3 +44,5 @@ We also need to specify exchange rates:
 - Make "amount" private
 - ~~Dollar side effects?~~
 - Money rounding?
+- ~~equals()~~
+- hashCode()
