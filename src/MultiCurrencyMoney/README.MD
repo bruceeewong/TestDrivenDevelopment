@@ -41,3 +41,11 @@ In conclusion:
 
 - need to be able to add amounts in two different currencies and convert the result given a set of exchange rates.
 - need to be able to multiply an amount (price per share) by a number (number of shares) and receive an amount.
+
+## Tasking List
+
+- $5+ 10 CHF = $10 if rate is 2:1
+- ~~$5 * 2 = $10~~
+- Make "amount" private
+- Dollar side effects?
+- Money rounding?
