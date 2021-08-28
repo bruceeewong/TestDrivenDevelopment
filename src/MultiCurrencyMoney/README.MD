@@ -57,3 +57,5 @@ In conclusion:
 - Dollar/Franc duplication
 - ~~Common equals~~
 - Common times
+- ~~Compare Franc to Dollars~~
+- Currency?
