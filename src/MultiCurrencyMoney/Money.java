@@ -1,5 +1,7 @@
 package MultiCurrencyMoney;
 
+import java.util.Objects;
+
 public class Money implements Expression {
     protected int amount;
     protected String currency;
@@ -22,7 +24,13 @@ public class Money implements Expression {
     }
 
     public boolean equals(Object object) {
-        Money money = (Money) object;
+        if (object == null) return false;
+        Money money;
+        try {
+            money = (Money) object;
+        } catch (Exception e) {
+            return false;
+        }
         return amount == money.amount && currency().equals(money.currency());
     }
 
@@ -45,5 +53,10 @@ public class Money implements Expression {
                 "amount=" + amount +
                 ", currency='" + currency + '\'' +
                 '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(amount, currency);
     }
 }

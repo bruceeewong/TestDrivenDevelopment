@@ -2,6 +2,9 @@ package MultiCurrencyMoney;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
+import java.util.Objects;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestMultiCurrencyMoney {
@@ -17,6 +20,8 @@ public class TestMultiCurrencyMoney {
         assertTrue(Money.dollar(5).equals(Money.dollar(5)));
         assertFalse(Money.dollar(5).equals(Money.dollar(6)));
         assertFalse(Money.franc(5).equals(Money.dollar(5)));
+        assertFalse(Money.franc(5).equals(null));
+        assertFalse(Money.franc(5).equals(new Object()));
     }
 
     @Test
