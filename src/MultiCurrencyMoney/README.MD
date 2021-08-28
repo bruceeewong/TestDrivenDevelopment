@@ -49,3 +49,5 @@ In conclusion:
 - Make "amount" private
 - ~~Dollar side effects?~~
 - Money rounding?
+- ~~equals()~~
+- hashCode()
