@@ -59,3 +59,4 @@ In conclusion:
 - Common times
 - ~~Compare Franc to Dollars~~
 - Currency?
+- Delete testFrancMultiplication?
