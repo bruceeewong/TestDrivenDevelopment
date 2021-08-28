@@ -58,5 +58,5 @@ In conclusion:
 - ~~Common equals~~
 - Common times
 - ~~Compare Franc to Dollars~~
-- Currency?
+- ~~Currency?~~
 - Delete testFrancMultiplication?
