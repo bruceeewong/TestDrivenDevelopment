@@ -1,6 +1,6 @@
 package MultiCurrencyMoney;
 
-public abstract class Money {
+public class Money {
     protected int amount;
     protected String currency;
 
@@ -23,10 +23,18 @@ public abstract class Money {
 
     public boolean equals(Object object) {
         Money money = (Money) object;
-        return amount == money.amount && this.getClass() == object.getClass();
+        return amount == money.amount && currency().equals(money.currency());
     }
 
     public Money times(int multiplier) {
-        return Money.dollar(amount * multiplier);
+        return null;
+    };
+
+    @Override
+    public String toString() {
+        return "Money{" +
+                "amount=" + amount +
+                ", currency='" + currency + '\'' +
+                '}';
     }
 }
